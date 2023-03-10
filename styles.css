@@ -13,6 +13,14 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: #3882F6 ;
+}
+
+img {
+    border: #E5E7EB 5px solid;
+}
+
 header {
     background-color: #1F2937;
     padding: 0 100px;
@@ -22,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
+    white-space: nowrap;
 }
 
 .site-logo {
@@ -48,11 +57,12 @@ header {
     padding: 50px 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 50px;
 }
 
 .hero-info {
-    max-width: 400px;
+    flex: 1;
 }
 
 .hero-title {
@@ -79,11 +89,11 @@ header {
 }
 
 .hero-image {
+    flex: 1;
     display: flex;
     height: 200px;
     width: 400px;
     object-fit: cover;
-    border: #E5E7EB 5px solid;
 }
 
 .information {
@@ -119,8 +129,6 @@ header {
     width: 150px;
     height: 150px;
     margin-bottom: 5px;
-    border: #3882F6 3px solid;
-    border-radius: 10px;
 }
 
 .information-text {
@@ -203,4 +211,3 @@ footer {
     padding: 25px;
     text-align: center;
 }
-
