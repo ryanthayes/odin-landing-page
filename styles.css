@@ -73,6 +73,44 @@ header {
     display: flex;
     height: 200px;
     width: 400px;
+    object-fit: cover;
     border: #E5E7EB 5px solid;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.information-title {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #1F2937;
+    padding: 36px 0;
+}
+.information-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    border: #3882F6 3px solid;
+    border-radius: 10px;
+}
+
+.information-text {
+    width: 16ch;
+    text-align: center;
+    color: #929292;
+}
