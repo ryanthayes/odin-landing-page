@@ -15,7 +15,7 @@ a {
 
 header {
     background-color: #1F2937;
-    padding: 0 50px;
+    padding: 0 100px;
 }
 
 .nav-bar {
@@ -41,7 +41,7 @@ header {
 }
 
 .nav-bar a:hover {
-    color: #F9FAF8;
+    color: #3882F6;
 }
 
 .hero-container {
@@ -49,6 +49,10 @@ header {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.hero-info {
+    max-width: 400px;
 }
 
 .hero-title {
@@ -69,6 +73,11 @@ header {
     border-radius: 5px;
 }
 
+.hero-btn:hover {
+    color: #3882F6;
+    background-color: #fff;
+}
+
 .hero-image {
     display: flex;
     height: 200px;
@@ -81,10 +90,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px 0 100px 0;
 }
+
 .information-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 36px;
 }
 
@@ -93,8 +105,10 @@ header {
     font-weight: 900;
     text-transform: capitalize;
     color: #1F2937;
-    padding: 36px 0;
+    margin-bottom: 50px;
+    
 }
+
 .information-card {
     display: flex;
     flex-direction: column;
@@ -112,5 +126,81 @@ header {
 .information-text {
     width: 16ch;
     text-align: center;
-    color: #929292;
+    color: #545454;
 }
+
+.blockquote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockquote-container {
+    max-width: 800px;
+}
+
+.blockquote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #545454;
+    margin-bottom: 36px;
+}
+
+.blockquote-text-credit {
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blockquote-text-credit::before {
+    content: "\2014";
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #fff;
+    padding: 50px 50px;
+    gap: 50px;
+    border-radius: 10px; 
+    width: 700px;
+}
+
+.call-to-action__text {
+    color: #E5E7EB;
+}
+
+.call-to-action__btn {
+    background-color: transparent;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    padding: 0 30px;    
+    height: 25px;
+    white-space: nowrap;
+}
+
+.call-to-action__btn:hover {
+    background-color: #fff;
+    color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
